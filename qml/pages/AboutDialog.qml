@@ -32,6 +32,20 @@ Page {
 
             font.pixelSize: Theme.fontSizeSmall
         }
+		Label {
+            x: Theme.paddingMedium
+            text: qsTr("Update 2018, 2019:")
+            color: Theme.highlightColor
+
+            font.pixelSize: Theme.fontSizeMedium
+        }
+        Label {
+            x: Theme.paddingLarge
+            text: "Anton Lastei"
+            color: Theme.primaryColor
+
+            font.pixelSize: Theme.fontSizeSmall
+        }
         Label {
             x: Theme.paddingMedium
             text: qsTr("Lizenz:")

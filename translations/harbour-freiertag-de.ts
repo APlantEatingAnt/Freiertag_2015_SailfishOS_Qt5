@@ -27,6 +27,10 @@
         <source>Über</source>
         <translation></translation>
     </message>
+    <message>
+        <source>Update 2018, 2019:</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>MainPage</name>

@@ -41,6 +41,8 @@ OTHER_FILES += qml/harbour-freiertag.qml \
     data/2017/ferien/* \
     data/2018/feiertage/* \
     data/2018/ferien/* \
+    data/2019/feiertage/* \
+    data/2019/ferien/* \
     qml/pages/MainPage.qml \
     qml/pages/ResultPage.qml \
     qml/pages/AboutDialog.qml \
@@ -78,6 +80,12 @@ ferien2018.files += data/2018/ferien/*.ics
 feiertage2018.path = /usr/share/harbour-freiertag/data/2018/feiertage
 feiertage2018.files += data/2018/feiertage/*.ics
 
+# define data for 2019
+ferien2019.path = /usr/share/harbour-freiertag/data/2019/ferien
+ferien2019.files += data/2019/ferien/*.ics
+feiertage2019.path = /usr/share/harbour-freiertag/data/2019/feiertage
+feiertage2019.files += data/2019/feiertage/*.ics
+
 INSTALLS += ferien2015
 INSTALLS += feiertage2015
 
@@ -89,3 +97,6 @@ INSTALLS += feiertage2017
 
 INSTALLS += ferien2018
 INSTALLS += feiertage2018
+
+INSTALLS += ferien2019
+INSTALLS += feiertage2019
